@@ -149,8 +149,8 @@ def classify_image(mask_bin, threshold):
 
 ##############################################
 # Interfejs aplikacji Streamlit
-st.title("Detekcja różnic na PCB przy użyciu U-Net oraz metody Canny")
-st.markdown("Aplikacja umożliwia trenowanie modelu segmentacyjnego na podstawie par zdjęć (referencyjnych i defektowych) oraz analizę nowego zdjęcia PCB. Wyniki prezentowane są dwiema metodami: maska generowana przez sieć (U-Net) oraz klasyczne wykrywanie różnic metodą Canny. Dodatkowo, na podstawie maski różnic określana jest jakość zdjęcia.")
+st.title("Detekcja różnic na PCB przy użyciu U-Net")
+st.markdown("Aplikacja umożliwia trenowanie modelu segmentacyjnego na podstawie par zdjęć (referencyjnych i defektowych) oraz analizę nowego zdjęcia PCB. Wyniki prezentowane są dwiema metodami: maska generowana przez sieć (U-Net). Dodatkowo, na podstawie maski różnic określana jest jakość zdjęcia.")
 
 # Sekcja przesyłania zdjęć treningowych
 st.markdown("### Przesyłanie zdjęć treningowych")
