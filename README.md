@@ -77,8 +77,8 @@ Możesz również dodać mechanizmy takie jak EarlyStopping czy ReduceLROnPlatea
 - Jakość danych: Wynik detekcji defektów zależy od jakości i reprezentatywności danych treningowych. Zaleca się zebranie różnorodnych zdjęć oraz, jeśli to możliwe, ręczną korektę ground truth masek.
   
 ## Podsumowanie
-Aplikacja łączy podejście oparte na sieciach neuronowych (U-Net) z klasycznymi metodami wykrywania różnic (Canny) w celu automatycznego wykrywania defektów na PCB. Użytkownik ma możliwość:
+Aplikacja łączy podejście oparte na sieciach neuronowych (U-Net) w celu automatycznego wykrywania defektów na PCB. Użytkownik ma możliwość:
 - Przesyłania zdjęć treningowych i analizy nowego zdjęcia PCB.
 - Trenowania modelu segmentacyjnego.
-- Wizualizacji wyników analizy – maski generowanej przez U-Net oraz zarysu różnic metodą Canny.
+- Wizualizacji wyników analizy – maski generowanej przez U-Net.
 - Klasyfikacji zdjęcia jako "Dobre" lub "Złe" na podstawie procentowego udziału wykrytych różnic.
