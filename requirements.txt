@@ -1,4 +1,5 @@
-TensorFlow
-OpenCV
-Streamlit
-NumPy
+tensorflow>=2.0
+opencv-python
+streamlit
+numpy
+Pillow
