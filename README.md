@@ -56,7 +56,7 @@ pip install tensorflow opencv-python streamlit numpy
 
 - Kliknij przycisk "Rozpocznij trenowanie modelu segmentacyjnego".
 - Model U-Net zostanie wytrenowany na wygenerowanych parach zdjęć oraz ground truth maskach. Parametry treningu (np. liczba epok, validation_split, batch_size) możesz dostosować w funkcji model.fit().
-- 
+  
 ## Analiza nowego zdjęcia PCB
 - Prześlij nowe zdjęcie PCB do analizy w odpowiedniej sekcji.
 - Aplikacja automatycznie pobierze referencyjne zdjęcie z folderu train_images/good i przygotuje dane wejściowe dla modelu.
