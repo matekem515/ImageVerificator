@@ -1,4 +1,4 @@
-# Detekcja różnic na PCB przy użyciu U-Net oraz klasycznego podejścia (Canny)
+# Detekcja różnic na PCB przy użyciu U-Net
 
 Projekt to aplikacja webowa oparta na [Streamlit](https://streamlit.io/), która umożliwia automatyczne wykrywanie defektów na płytkach drukowanych (PCB) poprzez porównanie obrazu testowego z referencyjnym zdjęciem dobrej płytki. Rozwiązanie łączy podejście oparte na uczeniu maszynowym (model segmentacyjny U-Net) .
 
