@@ -8,7 +8,8 @@ Projekt to aplikacja webowa oparta na [Streamlit](https://streamlit.io/), która
   Użytkownik może przesyłać zdjęcia dobre (referencyjne) oraz złe (defektowe) do folderów `train_images/good` oraz `train_images/bad`.
 
 - **Trenowanie modelu segmentacyjnego (U-Net):**  
-  Model U-Net jest trenowany na danych treningowych, które są generowane automatycznie przez porównanie referencyjnego obrazu z defektowym zdjęciem. Ground truth maski są tworzone na podstawie różnicy między obrazami (po konwersji do odcieni szarości, progowaniu i operacjach morfologicznych).
+  Model U-Net jest trenowany na danych treningowych, które są generowane automatycznie przez porównanie referencyjnego obrazu z defektowym zdjęciem. Ground truth maski są tworzone na podstawie różnicy między obrazami (po konwersji do odcieni szarości, progowaniu i 
+  operacjach morfologicznych).
 
 - **Analiza nowego zdjęcia PCB:**  
   Po przesłaniu nowego zdjęcia PCB aplikacja:
@@ -36,7 +37,7 @@ Projekt to aplikacja webowa oparta na [Streamlit](https://streamlit.io/), która
    venv\Scripts\activate      # Windows
 2. **Zainstaluj wymagane biblioteki:**
    
-pip install tensorflow opencv-python streamlit numpy
+   pip install tensorflow opencv-python streamlit numpy
 
 ## Uruchomienie aplikacji
 1. **Skopiuj cały kod aplikacji do pliku app.py.**
