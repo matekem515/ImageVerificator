@@ -16,7 +16,6 @@ Projekt to aplikacja webowa oparta na [Streamlit](https://streamlit.io/), która
   - Wybiera referencyjne zdjęcie z folderu `train_images/good`.
   - Przygotowuje wejście dla modelu poprzez sklejenie referencyjnego i testowego obrazu (po 3 kanały każdy, co daje 6 kanałów).
   - Generuje maskę różnic przy użyciu wytrenowanego modelu U-Net.
-  - Równolegle wykonuje klasyczne wykrywanie różnic metodą Canny.
   - Nakłada maskę na zdjęcie testowe, wizualizując defekty.
   - Oblicza procentową powierzchnię wykrytych różnic i klasyfikuje zdjęcie jako **"Dobre"** lub **"Złe"**.
 
